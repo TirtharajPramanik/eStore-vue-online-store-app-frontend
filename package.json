@@ -1,0 +1,15 @@
+{
+	"name": "Intro-to-Vue-3",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"serve": "serve"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"serve": "^13.0.4"
+	}
+}
