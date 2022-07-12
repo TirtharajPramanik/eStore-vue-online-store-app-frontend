@@ -4,11 +4,12 @@
 	"scripts": {
 		"dev": "vite --host",
 		"build": "run-p type-check build-only",
-		"preview": "vite preview --port 4173",
+		"preview": "vite preview --port 4173 --host",
 		"build-only": "vite build",
 		"type-check": "vue-tsc --noEmit"
 	},
 	"dependencies": {
+		"@headlessui/vue": "^1.6.6",
 		"@heroicons/vue": "^1.0.6",
 		"vue": "^3.2.37",
 		"vue-router": "^4.0.16"
